@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ["Tilt\\ Neon", "cursive"],
+        text: ["Tilt\\ Warp", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
