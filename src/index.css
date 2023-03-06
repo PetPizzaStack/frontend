@@ -19,3 +19,20 @@ body {
   /* cursor: url(https://em-content.zobj.net/thumbs/320/apple/325/pizza_1f355.png), auto; */
   /* cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png), auto; */
 }
+
+.logo span {
+  animation: logo-spin 1s linear;
+}
+
+@keyframes logo-spin {
+  0% {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  }
+  50% {
+    transform: matrix3d(0.866, 0.5, 0, 0, -0.5, 0.866, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  }
+
+  100% {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  }
+}
