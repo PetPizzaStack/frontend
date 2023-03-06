@@ -1,14 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 
-export interface IMenuItemProps {
-  title: string;
-  link: string;
-  imageSource: string;
-  ingredients: string[];
-  weight: number;
-  price: number;
-}
+import { IMenuItemProps } from "@app/modules";
 
 export const MenuItem: FC<IMenuItemProps> = ({
   title,

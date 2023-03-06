@@ -2,15 +2,11 @@ import clsx from "clsx";
 import { FC, useEffect, useState } from "react";
 import { v4 } from "uuid";
 
-import { IMenuItemProps, MenuItem } from "../menu-item";
+import { IMenuItem, IMenuItemProps, MenuItem } from "@app/modules";
 
-interface IMenuGridProps {
+export interface IMenuGridProps {
   items: IMenuItemProps[];
   cols?: number;
-}
-
-interface IMenuItem extends IMenuItemProps {
-  id: string;
 }
 
 export const MenuGrid: FC<IMenuGridProps> = ({ items, cols = 3 }) => {
