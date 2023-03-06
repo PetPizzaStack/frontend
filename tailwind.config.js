@@ -7,6 +7,9 @@ module.exports = {
         logo: ["Tilt\\ Neon", "cursive"],
         text: ["Tilt\\ Warp", "cursive"],
       },
+      colors: {
+        brown: "#514646",
+      },
     },
   },
   plugins: [],

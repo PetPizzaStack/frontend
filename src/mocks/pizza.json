@@ -1,0 +1,89 @@
+[
+  {
+    "imageSource": "manhattan.jpeg",
+    "weight": 555,
+    "title": "Піца Мангеттен",
+    "ingredients": ["(подвійна порція грибів)", "Гриби", "Моцарела", "Пепероні", "Соус Альфредо"],
+    "price": 215,
+    "link": "/"
+  },
+  {
+    "imageSource": "pepperoni-w-tomatoes.jpeg",
+    "weight": 554,
+    "title": "Піца Пепероні з томатами",
+    "ingredients": ["Моцарела", "Пепероні", "Помідори", "Соус Барбекю"],
+    "price": 215,
+    "link": "/"
+  },
+  {
+    "imageSource": "ham-w-mushrooms.jpeg",
+    "weight": 545,
+    "title": "Піца Шинка та гриби",
+    "ingredients": ["Шинка", "Гриби", "Моцарела", "Соус PizzaStack"],
+    "price": 215,
+    "link": "/"
+  },
+  {
+    "imageSource": "texas.jpeg",
+    "weight": 550,
+    "title": "Піца Техас",
+    "ingredients": [
+      "Кукурудза",
+      "Цибуля",
+      "Гриби",
+      "Ковбаски баварські",
+      "Моцарела",
+      "Соус Барбекю"
+    ],
+    "price": 215,
+    "link": "/"
+  },
+  {
+    "imageSource": "pepperoni.jpeg",
+    "weight": 560,
+    "title": "Піца Пепероні",
+    "ingredients": ["Моцарела", "Пепероні", "Соус PizzaStack"],
+    "price": 250,
+    "link": "/"
+  },
+  {
+    "imageSource": "margarita.jpeg",
+    "weight": 552,
+    "title": "Піца Маргаріта",
+    "ingredients": ["(подвійна порція моцарели)", "Моцарела", "Соус PizzaStack"],
+    "price": 250,
+    "link": "/"
+  },
+  {
+    "imageSource": "barbecue.jpeg",
+    "weight": 552,
+    "title": "Піца Барбекю",
+    "ingredients": ["Курка", "Цибуля", "Бекон", "Гриби", "Моцарела", "Соус Барбекю"],
+    "price": 255,
+    "link": "/"
+  },
+  {
+    "imageSource": "grill-mix.jpeg",
+    "weight": 569,
+    "title": "Піца Гриль Мікс",
+    "ingredients": [
+      "Курка",
+      "Фрикадельки",
+      "Цибуля",
+      "Бекон",
+      "Болгарський перець",
+      "Моцарела",
+      "Соус Барбекю"
+    ],
+    "price": 250,
+    "link": "/"
+  },
+  {
+    "imageSource": "carbonara.jpeg",
+    "weight": 540,
+    "title": "Піца Карбонара",
+    "ingredients": ["Цибуля", "Бекон", "Шинка", "Гриби", "Моцарела", "Соус Альфредо"],
+    "price": 250,
+    "link": "/"
+  }
+]
