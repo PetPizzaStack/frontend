@@ -14,6 +14,4 @@ const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 export const Primary = Template.bind({});
 
-Primary.args = {
-  title: "Header",
-};
+Primary.args = {};

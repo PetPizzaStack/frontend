@@ -1,13 +1,11 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { Logo } from "@app/common";
 
 // import { ROUTES } from "@app/utils";
 
-interface IHeaderProps {
-  title: string;
-}
+interface IHeaderProps {}
 
 export const Header: FC<IHeaderProps> = () => {
   return (

@@ -18,7 +18,7 @@ export const MenuGrid: FC<IMenuGridProps> = ({ items, cols = 3 }) => {
 
   return (
     <section
-      className={clsx("grid gap-5 md:gap-10", {
+      className={clsx("container grid gap-5 md:gap-10", {
         "md:grid-cols-2": cols === 2,
         "md:grid-cols-3": cols === 3,
         "md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4": cols === 4,

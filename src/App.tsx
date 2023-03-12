@@ -1,3 +1,16 @@
+import { MenuGrid } from "@app/modules";
+import { Footer, Header } from "@app/common";
+
+import data from "@app/mocks/pizza.json";
+
 export const App = () => {
-  return <div className="ml-10 mt-10 font-semibold text-3xl">hi</div>;
+  return (
+    <>
+      <Header />
+      <main className="mt-10 mb-14">
+        <MenuGrid items={data} cols={3} />
+      </main>
+      <Footer />
+    </>
+  );
 };
